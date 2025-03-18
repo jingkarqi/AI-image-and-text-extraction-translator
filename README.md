@@ -51,7 +51,3 @@ GITS/
 3. 输出目录会自动创建，无需手动创建
 ```
 
-关键路径说明：
-- 图片处理入口：<mcfile name="pic-response.py" path="e:\AI\GITS\pic-response.py"></mcfile>
-- 翻译模块入口：<mcfile name="translator.py" path="e:\AI\GITS\translator.py"></mcfile>
-- 输出目录：<mcfolder name="json-result" path="e:\AI\GITS\json-result"></mcfolder> 和 <mcfolder name="translated-result" path="e:\AI\GITS\translated-result"></mcfolder>
