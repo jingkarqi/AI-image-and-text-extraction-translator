@@ -45,20 +45,6 @@ GITS/
 └── qwen_vl_extractor.py # 图片处理核心模块
 ```
 
-##项目树状图
-
-```mermaid
-flowchart TD
-    root[GITS/] --> input_images[input_images/        # 原始图片目录]
-    root --> json-result[json-result/         # 图片处理结果]
-    root --> translated-result[translated-result/   # 翻译结果]
-    root --> config.py[config.py            # API配置]
-    root --> pic-response.py[pic-response.py      # 图片处理主程序]
-    root --> translator.py[translator.py        # 翻译程序]
-    root --> qwen_vl_extractor.py[qwen_vl_extractor.py # 图片处理核心模块]
-
-```
-
 
 ## 注意事项
 1. 请确保输入图片文件名规范（如示例中的b (1).png格式）
